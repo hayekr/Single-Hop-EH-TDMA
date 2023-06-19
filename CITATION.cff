@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. This the impemented code simulating energy harvesting."
+authors:
+- family-names: "Hayek"
+  given-names: "Robert"
+  orcid: "https://orcid.org/0000-0002-4015-5897"
+- family-names: "Ahmed"
+  given-names: "Ammar"
+  orcid: "https://orcid.org/0000-0001-5907-7043"
+title: "Single Hop Energy Harvesting TDMA for Arduino Based Wireless Sensor Networks"
+version: 1.0.0
+doi: 
+date-released: 
+url: "https://github.com/hayekr/Single-Hop-EH-TDMA"
