@@ -6,7 +6,6 @@ Copyright (c) 2023, Robert J. Hayek. All rights reserved.
 
 #define LED 8
 
-
 /* GLOBALS */
 const int TIME_SLOT = 1000; // Time slot length in ms.
 const int NUMBER_OF_NODES = 3;
@@ -17,6 +16,7 @@ const int ENERGY_HARVESTED_PROBABILITY = 40; // Percentage i.e 40%
 unsigned long count = 0;
 unsigned long previous_action = 0;
 unsigned long sync_time = 0;
+
 bool sync_received = false;
 bool wake_up_sync = false;
 bool tx_allowed = false;
@@ -31,7 +31,7 @@ bool energyAvailable(int probability) {
 void nodeFSM(void) {
   unsigned long current = 0;
 
-  static enum { SYNC_WAIT, READY_WAIT, TRANSMIT } state = SYNC_WAIT;
+  static enum {SYNC_WAIT, READY_WAIT, TRANSMIT } state = SYNC_WAIT;
   
   switch (state) {
     case SYNC_WAIT:
