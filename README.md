@@ -4,9 +4,9 @@ This repository contains the Arduino programs for implementing an energy harvest
 
 ## Authors
 
-- Robert Hayek, Computer Engineering Student, Ohio Northern University
+- Robert Hayek, M.S.E.E Student, Northwestern University
   - ORCID: [0000-0002-4015-5897](https://orcid.org/0000-0002-4015-5897)
-  - Email: r-hayek@onu.edu
+  - Email: robert.hayek@u.northwestern.edu
 
 - Dr. Ahmed Ammar, Assistant Professor of Electrical & Computer Engineering, Ohio Northern University
   - ORCID: [0000-0001-5907-7043](https://orcid.org/0000-0001-5907-7043)
@@ -18,7 +18,7 @@ Ohio Northern University, Ada, Ohio, United States
 
 ## Research Paper
 
-The research paper associated with this work can be found [here](link-to-paper).
+The research paper associated with this work can be found [here](https://ieeexplore.ieee.org/document/10316152).
 
 ## Poster Presentation
 
